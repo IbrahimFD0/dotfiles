@@ -1,0 +1,11 @@
+allow_images=true
+image_size=48
+width=600
+height=200
+insensitive=true
+mode=drun,run
+columns=1
+padding:5
+lines=6
+stylesheet=style.css
+hide_scroll=true
