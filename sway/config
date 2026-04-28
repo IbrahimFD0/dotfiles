@@ -240,9 +240,8 @@ bindsym $mod+alt+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    # Special key to take a screenshot with grim
-    bindsym Print exec grim
-    bindsym $mod+Print exec grim -g "$(slurp)"
+    # Special key to take a screenshot with Flameshot
+    bindsym Print exec flameshot gui
    
     # Switch language layout in example here using left-alt + left-shift for switch layout between US & TH
     input "type:keyboard" {
